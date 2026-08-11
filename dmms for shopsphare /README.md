@@ -57,20 +57,14 @@ The SQL script was successfully executed in MySQL Workbench without errors. The 
 Below are the execution logs and output screenshots verifying the successful creation and population of the ShopSphere database:
 
 ### Execution Log
-![Execution Log - Database Created](assets/screenshot_1.png)
+<img width="1655" height="395" alt="image" src="https://github.com/user-attachments/assets/602fc578-4c56-48cd-9d2f-1a8a11f8a6cb" />
 
 ### Schema & Data Verification
-![Schema and Data Verification](assets/screenshot_2.png)
+![Schema and Data Verification]
 
-### Report Outputs
-![Analytical Report Outputs](assets/screenshot_3.png)
+<img width="446" height="114" alt="image" src="https://github.com/user-attachments/assets/1b6bdd4d-7aa1-4528-b3b3-7a33767eb9a3" />
 
 
-## 6. Repository Structure
 
-shopsphere/
-│
-├── README.md                 # Project documentation (This file)
-├── shopsphere.sql            # Core MySQL script (Schema, Procedures, Data, Reports)
 
-   
+

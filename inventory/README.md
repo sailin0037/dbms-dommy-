@@ -42,47 +42,35 @@ To enforce operational logic at the database engine level, the following constra
 
 ---
 
-## 4. Inventory Reports
+## 4. Inventory Reports & Outputs
 
-The SQL scripts in this module include analytical queries designed for supply chain and operations management:
+The SQL scripts in this module include analytical queries designed for supply chain and operations management. Below are the executed results from MySQL Workbench:
 
-1. **Seller Inventory & Restock Alert Report:** 
-   - A dynamic operational report that compares an item's current `stock_quantity` against its specific `reorder_level`. It flags exactly which sellers need to restock which specific products, ordered by the most urgent shortages first.
+### Report 1: Complete Product Catalog Report
+Retrieves all product details alongside their corresponding category names and calculates the total inventory value.
+<img width="839" height="567" alt="Report 1 Output" src="https://github.com/user-attachments/assets/ea177a31-35c0-49b8-b4ec-66c429355c91" />
+
+### Report 2: Category Summary Report
+Aggregates total product count, average price, total stock, and overall inventory value per category.
+<img width="754" height="559" alt="Report 2 Output" src="https://github.com/user-attachments/assets/b9ab66b8-6898-4634-99c0-be9784929105" />
+
+### Report 3: Low-Stock Inventory Alert Report
+Filters and displays products with a total stock quantity of less than 25 units, ordered by ascending stock.
+<img width="555" height="309" alt="Report 3 Output" src="https://github.com/user-attachments/assets/d9ec700f-9ffc-4626-995a-b8e73a6675f7" />
+
+### Report 4: Seller Inventory & Restock Alert Report
+A dynamic operational report that compares an item's current `stock_quantity` against its specific `reorder_level`. It flags exactly which sellers need to restock which specific products.
+<img width="962" height="103" alt="Report 4 Output" src="https://github.com/user-attachments/assets/167b0503-675e-4d05-851a-b844995326cb" />
 
 ---
 
 ## 5. Files in this Directory
 
-'''text
+```text
 inventory/
 │
-├── README.md                 # This documentation file
-└── inventory_queries.sql     # SQL scripts specific to schema creation, dummy data, and reports for the inventory module
-
-Here some reports 
-
-report 1 
-
-
-
-<img width="839" height="567" alt="image" src="https://github.com/user-attachments/assets/ea177a31-35c0-49b8-b4ec-66c429355c91" />
-
-report 2
-
-
-
-<img width="754" height="559" alt="image" src="https://github.com/user-attachments/assets/b9ab66b8-6898-4634-99c0-be9784929105" />
-
-report 3 
-
-
-
-<img width="555" height="309" alt="image" src="https://github.com/user-attachments/assets/d9ec700f-9ffc-4626-995a-b8e73a6675f7" />
-
-report 4
-
-
-
-<img width="962" height="103" alt="image" src="https://github.com/user-attachments/assets/167b0503-675e-4d05-851a-b844995326cb" />
-
+├── README.md                 # Project documentation and execution guide
+└── inventory_queries.sql     # SQL scripts specific to schema creation, dummy data, and reports
+```
+```
 

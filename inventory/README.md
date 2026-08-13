@@ -53,7 +53,7 @@ The SQL scripts in this module include analytical queries designed for supply ch
 
 ## 5. Files in this Directory
 
-
+'''text
 inventory/
 │
 ├── README.md                 # This documentation file

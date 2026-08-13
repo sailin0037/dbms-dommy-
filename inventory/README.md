@@ -53,9 +53,24 @@ The SQL scripts in this module include analytical queries designed for supply ch
 
 ## 5. Files in this Directory
 
-```text
+
 inventory/
 │
 ├── README.md                 # This documentation file
 └── inventory_queries.sql     # SQL scripts specific to schema creation, dummy data, and reports for the inventory module
+
+Here some reports 
+
+report 1 
+<img width="839" height="567" alt="image" src="https://github.com/user-attachments/assets/ea177a31-35c0-49b8-b4ec-66c429355c91" />
+
+report 2
+<img width="754" height="559" alt="image" src="https://github.com/user-attachments/assets/b9ab66b8-6898-4634-99c0-be9784929105" />
+
+report 3 
+<img width="555" height="309" alt="image" src="https://github.com/user-attachments/assets/d9ec700f-9ffc-4626-995a-b8e73a6675f7" />
+
+report 4
+<img width="962" height="103" alt="image" src="https://github.com/user-attachments/assets/167b0503-675e-4d05-851a-b844995326cb" />
+
 

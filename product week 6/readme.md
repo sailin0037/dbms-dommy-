@@ -1,10 +1,12 @@
+<img width="624" height="1083" alt="Er Diagram" src="https://github.com/user-attachments/assets/99bc1d25-2a3f-4f6a-a29b-835611421fe4" />
+
 ### Week 7 — Basic SELECT & WHERE Queries
 - ✅ Display all customers / products / orders / payments
 - ✅ `WHERE` filters: `Price > 5000`, `Stock > 0`, `City = 'Chennai'`, `Status = 'Completed'`, `Rating > 4`
 
 ---
 
-## 🧪 Sample Data
+##  Sample Data
 
 | Review_ID | Customer | Product | Rating | Review |
 |-----------|----------|---------|--------|--------|
